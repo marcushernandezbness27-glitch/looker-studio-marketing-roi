@@ -14,8 +14,9 @@
     ],
     built: [
       "Dashboard 1: a 3-page multi-source ROI report (Website & Search, Paid Advertising, Summary/ROI) over 6 data sources and 2 blends. GA4 + Search Console are real marcushq.buzz data; the Google Ads, CRM and targets layers are simulated and labelled on every page",
+      "A consent-gap panel: the site's own cookieless server-side page-view counts (published as CSV, pulled into Sheets with IMPORTDATA) blended with consented GA4 views by date, as a GA4 Capture Rate",
       "CRM-verified metrics: CPL = spend ÷ deduplicated CRM leads, CRM ROAS = closed revenue ÷ spend, and a Tracking Gap metric for Ads conversions with no matching CRM lead",
-      "Dashboard 2: a GA4 agency template on the native connector with a data control, so any viewer can point every chart at their own GA4 property, plus a Linking API URL that creates a client's own pre-connected copy",
+      "Dashboard 2: a GA4 agency template on the native connector with a data control, defaulting to Google's public GA4 demo property, so any viewer can point every chart at their own GA4 property, plus a Linking API URL that creates a client's own pre-connected copy",
       "A platform grouping layer: two calculated fields mapping source/medium into Meta / Threads / Google / YouTube / Xiaohongshu / LinkedIn / Email / Direct / Other × Paid / Organic, identical in both reports",
       "A UTM cheat sheet with one row per platform and traffic type, each row matched to the bucket the grouping formula produces",
       "A seeded Node.js mock data generator that makes every simulated number reproducible",
@@ -36,6 +37,10 @@ Dashboard 2:  GA4 native connector ── Data control ── viewer's own prope
     ],
     decisions: [
       {
+        heading: "An empty GA4 report became the headline finding",
+        body: "This site runs consent mode v2 with the default set to denied. Over 28 days GA4 reported 0 sessions, while the site's own cookieless server-side counter recorded 2,434 page views. Tracking wasn't broken: a consented test visit appeared in Realtime with both key events. Non-consenting visitors and crawlers simply don't exist in GA4's standard reports. Rather than hide a blank page, the server counts are blended with GA4 by date into a GA4 Capture Rate chart. The server count is an upper bound, since its user-agent bot filter misses some crawlers.",
+      },
+      {
         heading: "Two ROAS numbers, side by side, on purpose",
         body: "Ads reports ROAS from a fixed value-per-lead rule; the CRM reports revenue from closed deals. Showing both isn't about picking a winner. The gap tells you whether the Ads value rule needs recalibrating. A Tracking Gap metric (Ads conversions with no CRM lead) sits alongside, because some share of spam and duplicate form fills is normal, and invisible unless the two systems are joined.",
       },
@@ -49,7 +54,7 @@ Dashboard 2:  GA4 native connector ── Data control ── viewer's own prope
       },
       {
         heading: "The template uses only fields every GA4 property has",
-        body: "Dashboard 2 never hard-codes this site's own event names. The Events page runs on GA4's Key events, so a client's conversions appear automatically after they swap properties. PENDING: one sentence on the demo-property data control test result.",
+        body: "Dashboard 2 never hard-codes this site's own event names. The Events page runs on GA4's Key events, so a client's conversions appear automatically after they swap properties. The template defaults to Google's public demo property; PENDING: one sentence on the swap-to-marcushq.buzz test result.",
       },
     ],
     result: "PENDING: fill in only what was verified (public URLs render in incognito, cross-source filter works, PDF export clean, data control swap result).",

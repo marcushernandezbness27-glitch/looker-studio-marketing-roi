@@ -66,7 +66,34 @@ Resource → Manage blends → **Add a blend**.
 
 ## Step 4 — Page 1: Website & Search (REAL data) (45 min)
 
-Add a small label at the top: *"Live data: GA4 + Search Console for marcushq.buzz."*
+Add a small label at the top: *"Live data: GA4 + Search Console + server-side counts for marcushq.buzz."*
+
+### 4a. The consent-gap data source (do this first)
+
+marcushq.buzz runs consent mode v2 with the default set to denied, so GA4 only reports
+visitors who click Accept. The site also counts every page view on the server, with no
+cookies and a user-agent bot filter, and publishes those counts as CSV.
+
+1. In the mock-data Google Sheet, add a tab `server_pageviews`. In cell A1, enter:
+   `=IMPORTDATA("https://marcushq.buzz/api/metrics/daily.csv")`
+   The columns are `date, path, server_page_views`, and Sheets re-pulls it roughly hourly.
+   This tab is **REAL** data even though it lives in the mock-data file.
+2. Add it as a 7th data source named `Server page views — marcushq.buzz (REAL)`. Set `date` to type **Date**.
+3. Create a blend called `Consent gap (REAL)`:
+   - **Table 1, Server page views:** dimension `date`, metric `server_page_views`.
+   - **Table 2, GA4:** dimension `Date`, metric `Views`.
+   - **Join:** Left outer on `date` = `Date`.
+   - **Blend field:** `GA4 Capture Rate` = `SUM(Views) / SUM(server_page_views)`, type Percent.
+
+| Element | Source | Config |
+|---|---|---|
+| Scorecards ×3 | Consent gap blend | Server page views, GA4 views, **GA4 Capture Rate** |
+| Time series | Consent gap blend | date → server_page_views vs Views. Title it *"Page views: server-side vs consented GA4"* |
+| Text box | — | *"GA4 reports only visitors who accept analytics cookies (consent mode v2, default denied). The server-side count is cookieless and bot-filtered by user agent, so it is an upper bound: some automated traffic still passes the filter. The gap is the cost of privacy-first consent, made visible."* |
+
+The platform filter doesn't apply to these charts, because the server count has no source data. Say so in the text box.
+
+### 4b. GA4 + Search Console
 
 | Element | Source | Config |
 |---|---|---|
