@@ -1,0 +1,409 @@
+date,month,campaign,campaign_type,platform_group,utm_source,utm_medium,impressions,clicks,cost,conversions,conversion_value
+2026-07-01,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,49,9,13.44,0,0
+2026-07-01,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,163,6,40.28,0,0
+2026-07-01,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1408,14,27.28,1,150
+2026-07-01,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1834,10,8.94,0,0
+2026-07-02,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,33,7,12.56,0,0
+2026-07-02,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,116,5,40.22,0,0
+2026-07-02,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,849,10,24.54,0,0
+2026-07-02,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2092,13,11.18,0,0
+2026-07-03,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,29,6,10.6,0,0
+2026-07-03,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,139,7,49.39,1,150
+2026-07-03,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1306,13,26.29,0,0
+2026-07-03,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1659,10,8.94,0,0
+2026-07-04,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,25,5,7.72,0,0
+2026-07-04,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,107,4,29.92,1,150
+2026-07-04,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,752,8,14.67,1,150
+2026-07-04,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,950,6,6.58,0,0
+2026-07-05,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,20,4,6.46,0,0
+2026-07-05,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,76,4,28.38,2,300
+2026-07-05,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,616,7,14.55,0,0
+2026-07-05,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1020,6,5.84,0,0
+2026-07-06,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,8,10.95,0,0
+2026-07-06,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,178,7,47.77,0,0
+2026-07-06,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1285,13,26.36,0,0
+2026-07-06,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1725,11,10.81,0,0
+2026-07-07,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,7,11.71,0,0
+2026-07-07,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,185,8,42.47,0,0
+2026-07-07,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1068,11,24.95,0,0
+2026-07-07,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2033,12,9.23,0,0
+2026-07-08,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,9,13.04,3,450
+2026-07-08,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,148,6,41.19,0,0
+2026-07-08,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1322,12,25.52,0,0
+2026-07-08,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1788,11,10.53,1,150
+2026-07-09,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,42,7,11.19,5,750
+2026-07-09,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,178,8,50.14,0,0
+2026-07-09,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,775,10,23.4,1,150
+2026-07-09,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1787,12,10.8,0,0
+2026-07-10,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,39,7,11.74,0,0
+2026-07-10,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,130,7,46.95,0,0
+2026-07-10,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1078,13,26.43,0,0
+2026-07-10,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1656,11,9.23,0,0
+2026-07-11,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,26,4,6.63,1,150
+2026-07-11,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,105,4,25.16,0,0
+2026-07-11,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,554,6,14.67,0,0
+2026-07-11,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,989,6,5.61,0,0
+2026-07-12,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,34,5,7.73,0,0
+2026-07-12,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,87,4,24.03,0,0
+2026-07-12,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,568,7,14.59,0,0
+2026-07-12,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,928,5,5.52,0,0
+2026-07-13,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,36,6,11.26,0,0
+2026-07-13,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,150,7,47.93,1,150
+2026-07-13,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,881,10,24.46,0,0
+2026-07-13,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2381,12,9.82,0,0
+2026-07-14,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,35,6,11.2,1,150
+2026-07-14,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,137,7,45.93,1,150
+2026-07-14,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1080,11,24,1,150
+2026-07-14,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2017,11,10.25,0,0
+2026-07-15,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,7,11.77,0,0
+2026-07-15,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,125,6,42.95,0,0
+2026-07-15,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1486,14,26.84,1,150
+2026-07-15,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1676,9,8.99,0,0
+2026-07-16,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,34,7,12.97,1,150
+2026-07-16,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,128,6,43.05,0,0
+2026-07-16,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1074,12,25.34,0,0
+2026-07-16,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1729,12,9.9,1,150
+2026-07-17,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,42,8,12.73,0,0
+2026-07-17,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,111,6,43.36,1,150
+2026-07-17,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,887,10,23.76,0,0
+2026-07-17,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2101,14,10.99,0,0
+2026-07-18,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,20,4,7.92,1,150
+2026-07-18,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,94,5,28.52,0,0
+2026-07-18,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,614,8,14.94,0,0
+2026-07-18,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1009,6,6.21,0,0
+2026-07-19,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,20,4,6.65,0,0
+2026-07-19,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,97,4,28.5,1,150
+2026-07-19,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,751,8,16.77,1,150
+2026-07-19,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1138,7,6.66,0,0
+2026-07-20,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,38,6,10.9,1,150
+2026-07-20,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,118,6,41.58,0,0
+2026-07-20,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1161,14,26.34,1,150
+2026-07-20,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2042,12,11.07,0,0
+2026-07-21,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,8,13.06,2,300
+2026-07-21,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,170,7,47.14,0,0
+2026-07-21,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1051,11,22.98,0,0
+2026-07-21,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1768,10,9.15,0,0
+2026-07-22,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,7,11.64,0,0
+2026-07-22,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,143,7,41.84,3,450
+2026-07-22,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1076,10,22.63,0,0
+2026-07-22,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1959,11,9.31,1,150
+2026-07-23,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,31,6,10.95,0,0
+2026-07-23,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,179,7,40.22,0,0
+2026-07-23,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,925,10,24.65,1,150
+2026-07-23,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1517,9,9.32,0,0
+2026-07-24,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,42,9,12.72,2,300
+2026-07-24,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,153,7,40.28,2,300
+2026-07-24,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1295,14,26.34,0,0
+2026-07-24,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1270,9,9.21,0,0
+2026-07-25,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,35,6,7.91,2,300
+2026-07-25,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,83,4,27.82,0,0
+2026-07-25,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,595,7,16.36,0,0
+2026-07-25,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1242,7,5.72,0,0
+2026-07-26,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,22,4,6.58,0,0
+2026-07-26,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,79,4,26.24,0,0
+2026-07-26,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,573,7,15.81,0,0
+2026-07-26,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,985,7,5.69,0,0
+2026-07-27,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,48,9,13.23,0,0
+2026-07-27,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,143,7,47.94,0,0
+2026-07-27,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,965,11,26.59,1,150
+2026-07-27,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1633,11,10.73,0,0
+2026-07-28,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,42,8,12.84,1,150
+2026-07-28,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,149,8,50.39,1,150
+2026-07-28,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,886,11,22.31,0,0
+2026-07-28,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2213,12,9.66,0,0
+2026-07-29,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,53,8,11.82,0,0
+2026-07-29,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,124,6,44.48,1,150
+2026-07-29,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,733,9,23.37,0,0
+2026-07-29,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2584,13,10.87,0,0
+2026-07-30,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,62,9,12.59,1,150
+2026-07-30,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,152,6,42.87,1,150
+2026-07-30,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1150,12,27.17,0,0
+2026-07-30,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1837,13,10.61,0,0
+2026-07-31,2026-07-01,SRCH_Brand_Exact,Search,Google,google,cpc,42,8,11.49,1,150
+2026-07-31,2026-07-01,SRCH_NonBrand_Services,Search,Google,google,cpc,149,8,46.82,1,150
+2026-07-31,2026-07-01,PMAX_LeadGen,Performance Max,Google,google,cpc,852,10,25.3,0,0
+2026-07-31,2026-07-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2180,13,9.9,0,0
+2026-08-01,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,25,5,8.02,1,150
+2026-08-01,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,93,5,29.27,2,300
+2026-08-01,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,487,6,14.06,0,0
+2026-08-01,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1116,7,6.45,0,0
+2026-08-02,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,24,5,7.87,0,0
+2026-08-02,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,122,5,29.11,0,0
+2026-08-02,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,534,7,16.78,0,0
+2026-08-02,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1299,8,6.31,0,0
+2026-08-03,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,48,9,11.89,1,150
+2026-08-03,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,149,8,49.79,1,150
+2026-08-03,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1058,13,23.93,0,0
+2026-08-03,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1570,10,9.73,0,0
+2026-08-04,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,41,8,11.06,0,0
+2026-08-04,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,183,8,48.29,0,0
+2026-08-04,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,786,9,22.04,0,0
+2026-08-04,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2135,12,9.89,0,0
+2026-08-05,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,55,8,11.15,0,0
+2026-08-05,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,118,6,40.67,0,0
+2026-08-05,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,996,11,22.73,0,0
+2026-08-05,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2450,12,9.4,0,0
+2026-08-06,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,39,6,11.01,0,0
+2026-08-06,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,151,7,48.98,0,0
+2026-08-06,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,836,10,22.54,0,0
+2026-08-06,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2050,11,10.99,0,0
+2026-08-07,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,8,10.92,1,150
+2026-08-07,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,170,9,47.11,0,0
+2026-08-07,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,988,10,24.68,0,0
+2026-08-07,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2071,13,10.29,1,150
+2026-08-08,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,25,4,7.52,0,0
+2026-08-08,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,101,4,25.09,0,0
+2026-08-08,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,467,6,13.6,0,0
+2026-08-08,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1709,9,6.72,0,0
+2026-08-09,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,28,5,7.23,0,0
+2026-08-09,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,95,4,25.3,0,0
+2026-08-09,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,589,6,14.04,0,0
+2026-08-09,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,912,6,5.69,0,0
+2026-08-10,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,57,9,13.27,2,300
+2026-08-10,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,153,6,42.91,3,450
+2026-08-10,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1027,12,26.1,0,0
+2026-08-10,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1947,10,10.24,0,0
+2026-08-11,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,35,7,12.56,0,0
+2026-08-11,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,171,7,42.87,2,300
+2026-08-11,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1012,11,25.95,1,150
+2026-08-11,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1633,11,10.54,0,0
+2026-08-12,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,9,11.71,0,0
+2026-08-12,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,151,8,49.84,0,0
+2026-08-12,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1521,14,26.12,0,0
+2026-08-12,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1256,9,9.19,0,0
+2026-08-13,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,47,8,12.66,1,150
+2026-08-13,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,162,7,43.58,1,150
+2026-08-13,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,729,9,22.02,0,0
+2026-08-13,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1702,11,10.35,0,0
+2026-08-14,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,35,7,11.77,0,0
+2026-08-14,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,114,5,40.22,0,0
+2026-08-14,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1040,12,26.47,1,150
+2026-08-14,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1928,10,9.52,0,0
+2026-08-15,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,34,5,7.38,0,0
+2026-08-15,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,77,4,25.89,0,0
+2026-08-15,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,557,6,14.1,0,0
+2026-08-15,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1209,7,5.93,0,0
+2026-08-16,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,24,5,7.41,0,0
+2026-08-16,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,74,4,26.69,0,0
+2026-08-16,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,711,8,15.79,0,0
+2026-08-16,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1078,7,6.1,0,0
+2026-08-17,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,29,6,10.69,0,0
+2026-08-17,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,121,6,44.53,0,0
+2026-08-17,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,977,12,23.66,0,0
+2026-08-17,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2319,12,11,0,0
+2026-08-18,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,52,9,13.14,0,0
+2026-08-18,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,169,7,42.86,0,0
+2026-08-18,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1194,12,25.97,0,0
+2026-08-18,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1925,12,10.2,0,0
+2026-08-19,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,7,11.81,4,600
+2026-08-19,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,183,7,45.1,2,300
+2026-08-19,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1200,11,26.8,0,0
+2026-08-19,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1987,10,9.41,0,0
+2026-08-20,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,46,8,12.25,0,0
+2026-08-20,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,157,8,45.43,0,0
+2026-08-20,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1122,12,26.54,1,150
+2026-08-20,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1656,10,9.93,0,0
+2026-08-21,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,51,8,11.53,0,0
+2026-08-21,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,184,7,42.42,2,300
+2026-08-21,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1302,12,26.95,0,0
+2026-08-21,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1839,11,8.82,1,150
+2026-08-22,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,30,6,7.93,1,150
+2026-08-22,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,61,3,24.35,0,0
+2026-08-22,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,627,8,16.02,1,150
+2026-08-22,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1353,7,5.81,1,150
+2026-08-23,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,25,5,7.31,0,0
+2026-08-23,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,101,4,24.18,1,150
+2026-08-23,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,993,9,16.44,0,0
+2026-08-23,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1388,9,6.57,1,150
+2026-08-24,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,37,6,11.09,1,150
+2026-08-24,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,223,9,49.8,0,0
+2026-08-24,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1223,12,25.81,0,0
+2026-08-24,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1978,10,10.12,0,0
+2026-08-25,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,40,7,11.08,0,0
+2026-08-25,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,151,8,46.13,1,150
+2026-08-25,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,887,10,25.18,0,0
+2026-08-25,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2367,12,10.32,0,0
+2026-08-26,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,7,12.78,1,150
+2026-08-26,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,157,7,42.77,0,0
+2026-08-26,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1083,12,27.55,1,150
+2026-08-26,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1812,13,10,0,0
+2026-08-27,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,46,8,11.73,0,0
+2026-08-27,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,121,6,44.14,0,0
+2026-08-27,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1082,11,22.13,0,0
+2026-08-27,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2131,13,9.95,0,0
+2026-08-28,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,51,8,10.69,2,300
+2026-08-28,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,139,7,46.6,1,150
+2026-08-28,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1124,12,26.85,0,0
+2026-08-28,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2486,12,9.18,0,0
+2026-08-29,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,25,4,6.77,1,150
+2026-08-29,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,107,4,26.47,1,150
+2026-08-29,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,477,6,15.33,0,0
+2026-08-29,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,859,6,5.48,0,0
+2026-08-30,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,31,5,7.24,0,0
+2026-08-30,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,77,4,24.94,0,0
+2026-08-30,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,718,7,15.18,0,0
+2026-08-30,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1020,7,6.68,0,0
+2026-08-31,2026-08-01,SRCH_Brand_Exact,Search,Google,google,cpc,51,8,12.52,1,150
+2026-08-31,2026-08-01,SRCH_NonBrand_Services,Search,Google,google,cpc,212,8,45.83,0,0
+2026-08-31,2026-08-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1103,11,22.14,0,0
+2026-08-31,2026-08-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1508,10,9.86,0,0
+2026-09-01,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,39,8,13.11,1,150
+2026-09-01,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,191,9,58.32,0,0
+2026-09-01,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,874,11,25.86,0,0
+2026-09-01,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2323,12,9.9,0,0
+2026-09-02,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,39,7,10.84,0,0
+2026-09-02,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,243,10,55.52,1,150
+2026-09-02,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,967,12,22.36,0,0
+2026-09-02,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2018,11,11.16,0,0
+2026-09-03,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,57,9,12.62,2,300
+2026-09-03,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,203,10,58.02,0,0
+2026-09-03,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1418,13,27.9,0,0
+2026-09-03,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1639,11,9.93,0,0
+2026-09-04,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,7,10.85,2,300
+2026-09-04,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,184,9,61.87,1,150
+2026-09-04,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1241,13,26.65,0,0
+2026-09-04,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1720,10,9.46,0,0
+2026-09-05,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,23,4,6.49,0,0
+2026-09-05,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,102,5,33.98,1,150
+2026-09-05,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,532,7,15.36,0,0
+2026-09-05,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1259,8,6.33,0,0
+2026-09-06,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,23,5,6.97,0,0
+2026-09-06,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,101,5,35.42,0,0
+2026-09-06,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,459,6,14.26,0,0
+2026-09-06,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,915,6,5.35,0,0
+2026-09-07,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,38,8,11.76,2,300
+2026-09-07,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,180,9,63.41,1,150
+2026-09-07,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,866,11,23.06,1,150
+2026-09-07,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2223,11,9.61,1,150
+2026-09-08,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,42,8,12.28,0,0
+2026-09-08,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,222,11,64.1,0,0
+2026-09-08,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1181,12,22.77,0,0
+2026-09-08,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1404,10,9.37,0,0
+2026-09-09,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,41,7,13.28,0,0
+2026-09-09,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,192,9,57.28,1,150
+2026-09-09,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1101,10,22.15,0,0
+2026-09-09,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1915,10,9.25,0,0
+2026-09-10,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,36,7,12.45,0,0
+2026-09-10,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,235,10,65.21,2,300
+2026-09-10,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1275,14,27.27,0,0
+2026-09-10,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1676,11,10.48,0,0
+2026-09-11,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,46,8,12.95,0,0
+2026-09-11,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,130,7,53.61,0,0
+2026-09-11,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1007,10,23.78,0,0
+2026-09-11,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1517,10,10.18,0,0
+2026-09-12,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,22,4,6.97,3,450
+2026-09-12,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,94,4,30.96,0,0
+2026-09-12,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,459,6,13.23,0,0
+2026-09-12,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1266,7,5.48,0,0
+2026-09-13,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,34,5,8,1,150
+2026-09-13,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,128,6,35.43,0,0
+2026-09-13,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,769,7,13.8,1,150
+2026-09-13,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1022,7,6.54,0,0
+2026-09-14,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,7,12.8,0,0
+2026-09-14,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,265,10,58.62,0,0
+2026-09-14,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,766,10,22.51,0,0
+2026-09-14,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1631,10,9.72,0,0
+2026-09-15,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,54,9,13.27,0,0
+2026-09-15,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,190,9,56.57,2,300
+2026-09-15,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1219,13,27.48,0,0
+2026-09-15,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2378,12,11.19,0,0
+2026-09-16,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,40,8,13.37,2,300
+2026-09-16,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,303,11,63.34,2,300
+2026-09-16,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1097,11,22.54,0,0
+2026-09-16,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1864,9,8.99,1,150
+2026-09-17,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,54,8,12.91,0,0
+2026-09-17,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,182,9,55.05,1,150
+2026-09-17,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,771,10,23.45,0,0
+2026-09-17,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1879,13,11.19,0,0
+2026-09-18,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,44,9,12.78,1,150
+2026-09-18,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,170,9,55.73,0,0
+2026-09-18,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1011,13,24.68,0,0
+2026-09-18,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1763,12,10.56,0,0
+2026-09-19,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,19,4,7.65,0,0
+2026-09-19,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,127,6,36.93,0,0
+2026-09-19,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,676,6,14.44,2,300
+2026-09-19,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1242,8,6.49,0,0
+2026-09-20,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,27,5,6.85,0,0
+2026-09-20,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,131,6,34.73,0,0
+2026-09-20,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,717,7,15.4,0,0
+2026-09-20,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,877,6,5.6,1,150
+2026-09-21,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,35,7,12.7,1,150
+2026-09-21,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,215,10,63.53,0,0
+2026-09-21,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1419,13,23.79,0,0
+2026-09-21,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2248,12,10.32,0,0
+2026-09-22,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,9,13.43,0,0
+2026-09-22,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,235,9,62.54,0,0
+2026-09-22,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,947,9,22.05,0,0
+2026-09-22,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1859,12,10.54,0,0
+2026-09-23,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,8,12.72,2,300
+2026-09-23,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,137,7,51.73,0,0
+2026-09-23,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1009,12,28,1,150
+2026-09-23,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1710,11,10.32,0,0
+2026-09-24,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,40,6,10.98,0,0
+2026-09-24,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,187,9,51.62,1,150
+2026-09-24,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1101,10,24.79,1,150
+2026-09-24,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2593,13,10.22,0,0
+2026-09-25,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,43,8,12.46,1,150
+2026-09-25,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,163,8,57.91,0,0
+2026-09-25,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1283,13,24.46,2,300
+2026-09-25,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1726,11,10.2,0,0
+2026-09-26,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,21,4,6.58,1,150
+2026-09-26,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,129,5,35.48,0,0
+2026-09-26,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,731,8,16.79,0,0
+2026-09-26,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,722,5,5.59,0,0
+2026-09-27,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,22,4,7.52,0,0
+2026-09-27,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,130,6,37.86,0,0
+2026-09-27,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,483,6,13.21,0,0
+2026-09-27,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1207,6,5.69,0,0
+2026-09-28,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,33,7,10.93,1,150
+2026-09-28,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,224,9,58.58,0,0
+2026-09-28,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1124,12,24.97,0,0
+2026-09-28,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1726,9,8.89,0,0
+2026-09-29,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,40,7,11.26,1,150
+2026-09-29,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,185,9,62.73,0,0
+2026-09-29,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,947,11,27.28,0,0
+2026-09-29,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1723,11,9.33,0,0
+2026-09-30,2026-09-01,SRCH_Brand_Exact,Search,Google,google,cpc,39,8,12.73,0,0
+2026-09-30,2026-09-01,SRCH_NonBrand_Services,Search,Google,google,cpc,218,9,58.73,1,150
+2026-09-30,2026-09-01,PMAX_LeadGen,Performance Max,Google,google,cpc,913,11,26.93,0,0
+2026-09-30,2026-09-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2306,12,10.23,0,0
+2026-10-01,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,53,8,13.4,3,450
+2026-10-01,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,253,10,65.21,0,0
+2026-10-01,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1123,10,24.17,0,0
+2026-10-01,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1899,10,9.84,0,0
+2026-10-02,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,53,9,13.14,2,300
+2026-10-02,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,225,11,62.85,0,0
+2026-10-02,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1207,11,27.58,0,0
+2026-10-02,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2576,13,10.3,0,0
+2026-10-03,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,19,4,7.82,0,0
+2026-10-03,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,99,5,33.37,1,150
+2026-10-03,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,557,6,14.39,0,0
+2026-10-03,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,878,6,5.45,0,0
+2026-10-04,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,31,5,7.39,1,150
+2026-10-04,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,139,6,36.12,0,0
+2026-10-04,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,740,8,15,0,0
+2026-10-04,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1181,7,5.46,0,0
+2026-10-05,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,36,7,10.88,1,150
+2026-10-05,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,247,10,63.04,0,0
+2026-10-05,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,964,12,25.55,1,150
+2026-10-05,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1275,9,9.18,0,0
+2026-10-06,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,45,7,13.09,0,0
+2026-10-06,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,191,10,63.66,0,0
+2026-10-06,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1061,11,23.02,1,150
+2026-10-06,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1949,13,10.7,0,0
+2026-10-07,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,39,8,12.59,0,0
+2026-10-07,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,191,9,53.72,0,0
+2026-10-07,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,818,9,22.89,0,0
+2026-10-07,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,2257,13,10.03,0,0
+2026-10-08,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,49,8,11.9,2,300
+2026-10-08,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,213,9,58.21,0,0
+2026-10-08,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,1296,12,26.6,0,0
+2026-10-08,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1973,13,10.89,0,0
+2026-10-09,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,50,8,12.79,0,0
+2026-10-09,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,171,8,55.11,0,0
+2026-10-09,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,918,12,25.48,0,0
+2026-10-09,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1933,11,9.48,1,150
+2026-10-10,2026-10-01,SRCH_Brand_Exact,Search,Google,google,cpc,26,4,6.48,1,150
+2026-10-10,2026-10-01,SRCH_NonBrand_Services,Search,Google,google,cpc,154,6,32.28,0,0
+2026-10-10,2026-10-01,PMAX_LeadGen,Performance Max,Google,google,cpc,662,7,15.33,0,0
+2026-10-10,2026-10-01,YT_Retargeting_Awareness,Video,YouTube,youtube,paid_video,1367,7,6.37,0,0
