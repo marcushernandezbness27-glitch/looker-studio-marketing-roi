@@ -1,6 +1,6 @@
 # Multi-Source Marketing ROI Reporting in Looker Studio + a Reusable GA4 Client Template
 
-> **DRAFT. Do not publish until the [PENDING] items are filled from the real build.**
+> **PUBLISHED 2026-10-15** at https://marcushq.buzz/work/looker-studio-marketing-roi (site source: portfolio-site/src/case-studies.ts).
 > Target URL: marcushq.buzz/work/looker-studio-marketing-roi
 
 **Role:** Sole builder (data model, mock data generator, calculated fields, report design, verification)
@@ -87,12 +87,16 @@ Dashboard 2 never hard-codes marcushq.buzz's own event names. The Events page
 runs on GA4's `Key events`, so a client's own conversions appear automatically
 after they swap properties. The grouping formulas use only standard dimensions.
 The template defaults to Google's public demo property. The swap was tested by
-pointing the data control at marcushq.buzz's own property [PENDING: result].
+pointing the data control at marcushq.buzz's own property: every chart re-queried, and
+the data-source-level grouping fields kept working on the swapped property with no
+chart-level rebuild.
 
 ### An empty GA4 report became the headline finding
 marcushq.buzz runs consent mode v2 with the default set to denied. Over one 28-day window (Sep 14 – Oct 11, 2026), GA4
 reported **0 sessions**, while the site's own cookieless server-side counter
-recorded **2,434 page views** in the same period. Tracking wasn't broken: a
+recorded **2,434 page views** in the same period. Across the full window
+(Jul 15 – Oct 12, 2026) the gap is 8,969 server-side page views against 88
+consented GA4 views, a **0.98% capture rate**. Tracking wasn't broken: a
 consented test visit appeared in GA4 Realtime with both key events. Visitors
 who don't accept analytics cookies (and crawlers, which never do) simply don't
 exist in GA4's standard reports. Instead of hiding a blank page, I added a small
@@ -101,6 +105,16 @@ CSV endpoint to the site (`/api/metrics/daily.csv`), pulled it into Sheets with
 Rate** chart that shows how much of the traffic a privacy-first setup is invisible to.
 The server count is an upper bound, because its user-agent bot filter doesn't catch every crawler, and the panel says so.
 
+### Rates don't survive custom grouping
+The first version of the Acquisition table showed a 1,504% "session key event rate"
+for Other / Referral. `Platform Group` is a calculated dimension built from
+source/medium, so Data Studio fetches one row per source/medium pair and re-aggregates
+them. That works for counts, but GA4's pre-computed rates were summed across
+dozens of referral sites. GA4 doesn't expose a "sessions with a key event" count, so the
+rate can't be rebuilt per group. The grouped tables now use count ratios (key events per
+session), and GA4's native rates appear only where GA4 computes them directly:
+scorecards, date trends and the raw source/medium table.
+
 ### Real and simulated data never share a scorecard unlabeled
 The Google Ads and CRM layers are simulated because there's no live ad spend
 yet. Every page that uses them carries a banner saying so, and the real GA4
@@ -108,9 +122,12 @@ traffic trend on the summary page is labelled separately.
 
 ## Result
 
-[PENDING: fill in only what was verified. Suggested structure:]
-- Dashboard 1 live and public: [PENDING URL]. All 3 pages render in an incognito window; the platform filter drives GA4 + paid + CRM charts; PDF export is clean landscape across 3 pages.
-- Dashboard 2 live and public: [PENDING URL]. Default view shows the demo store; the data control switched to marcushq.buzz, and grouping fields [PENDING: worked / needed chart-level rebuild].
+- **Dashboard 1 is live and public:** https://datastudio.google.com/reporting/b157e938-fa59-4e4f-aa4b-75ab32d4b072. It was verified in a signed-out incognito window, and the PDF export is 3 clean landscape pages.
+- **The simulated paid numbers match the seeded generator to the cent** (Jul 1 – Oct 10: $8,805.97 spend, 3,451 clicks, 154 Ads conversions, $67.22 CRM-verified CPL, 6.45 CRM ROAS). That proves both blend joins (date + campaign; month + platform) are correct.
+- **Real consent gap (Jul 15 – Oct 12, 2026):** 8,969 server-side page views vs 88 consented GA4 views, a 0.98% capture rate.
+- **One dropdown filters every source.** Selecting Threads on the summary page returned exactly the CRM rows in the source data (9 leads, 1 won, $2,500, cross-checked against the CSV). The paid bullets went empty (no Threads spend), the lead-mix chart showed only Organic Social, and the server-side traffic panel stayed unfiltered, as its label says.
+- **Search Console block:** connected and working, and it reads zero, which matches Search Console's own Performance report (0 clicks, 0 impressions). The homepage is indexed (URL Inspection: "URL is on Google"), but this new property's data only begins Oct 11, 2026, and since then the site hasn't appeared for any search. No SEO work has been done yet. Search visibility is the planned Technical SEO build. Sitemap submitted Oct 15.
+- **Dashboard 2 is live and public:** https://datastudio.google.com/reporting/465f0039-1f41-49ca-8691-1aa97f6430f7. The default view shows Google's demo store (~128k sessions over 28 days, grouped into Direct / Google / Other / Meta / YouTube / Email). Switching the data control to marcushq.buzz re-pointed every chart, and `Platform Group` / `Traffic Type` populated on the swapped property (3 sessions → Direct, 2 key events from a consented test visit). So the grouping travels with the template, with no per-client rebuild.
 - In the simulated data, the report surfaces what it was designed to: branded search at ~$18 CPL vs non-brand, PMax and YouTube each above their $80–$100 CPL targets, platform ROAS ~2.6× vs CRM cohort ROAS that differs from it, and a ~12–15% Ads-to-CRM tracking gap. *(These are properties of the mock dataset, regenerable with `--seed 43`, not client results.)*
 
 ## Honest gaps
@@ -124,4 +141,4 @@ traffic trend on the summary page is labelled separately.
 ---
 *Built as portfolio evidence for multi-source marketing reporting and agency GA4 templates. Companion files: `BUILD_GUIDE_DASHBOARD_1.md`, `BUILD_GUIDE_DASHBOARD_2.md`, `CALCULATED_FIELDS.md`, `data/utm_cheat_sheet.csv`.*
 
-**Links:** Dashboard 1 [PENDING] · Dashboard 2 template [PENDING] · UTM cheat sheet [PENDING: Google Sheet view link]
+**Links:** [Dashboard 1: Marketing ROI](https://datastudio.google.com/reporting/b157e938-fa59-4e4f-aa4b-75ab32d4b072) · [Dashboard 2: GA4 agency template](https://datastudio.google.com/reporting/465f0039-1f41-49ca-8691-1aa97f6430f7) · [UTM cheat sheet](https://docs.google.com/spreadsheets/d/1GeKICA4HdEn43QLDG_q4p_tNUeij35aKZGXg92G_-Ls/edit?usp=sharing)

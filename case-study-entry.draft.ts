@@ -38,7 +38,7 @@ Dashboard 2:  GA4 native connector ── Data control ── viewer's own prope
     decisions: [
       {
         heading: "An empty GA4 report became the headline finding",
-        body: "This site runs consent mode v2 with the default set to denied. Over 28 days GA4 reported 0 sessions, while the site's own cookieless server-side counter recorded 2,434 page views. Tracking wasn't broken: a consented test visit appeared in Realtime with both key events. Non-consenting visitors and crawlers simply don't exist in GA4's standard reports. Rather than hide a blank page, the server counts are blended with GA4 by date into a GA4 Capture Rate chart. The server count is an upper bound, since its user-agent bot filter misses some crawlers.",
+        body: "This site runs consent mode v2 with the default set to denied. Over 28 days GA4 reported 0 sessions, while the site's own cookieless server-side counter recorded 2,434 page views (8,969 vs 88 views across Jul 15 – Oct 12: a 0.98% capture rate). Tracking wasn't broken: a consented test visit appeared in Realtime with both key events. Non-consenting visitors and crawlers simply don't exist in GA4's standard reports. Rather than hide a blank page, the server counts are blended with GA4 by date into a GA4 Capture Rate chart. The server count is an upper bound, since its user-agent bot filter misses some crawlers.",
       },
       {
         heading: "Two ROAS numbers, side by side, on purpose",
@@ -49,12 +49,16 @@ Dashboard 2:  GA4 native connector ── Data control ── viewer's own prope
         body: "A Looker Studio filter control only reaches charts on other data sources when the field shares both a name and a Field ID. Every source gets a Platform Group field with the ID platform_group_cf: the grouping formula in GA4, a plain column copy in the Sheets. That's why one dropdown filters GA4, paid and CRM charts together.",
       },
       {
+        heading: "Rates don't survive custom grouping",
+        body: "The first Acquisition table showed a 1,504% session key event rate. Platform Group is a calculated dimension over source/medium, so Data Studio re-aggregates one row per source/medium pair. Counts add up correctly, but GA4's pre-computed rates were summed across dozens of referral sites. GA4 exposes no sessions-with-key-event count to rebuild the rate, so grouped tables use count ratios (key events per session), and native rates appear only where GA4 computes them directly.",
+      },
+      {
         heading: "Target CPL is derived, not averaged",
         body: "Targets store monthly budget and target leads; target CPL is SUM(budget) ÷ SUM(target leads), not an average of a stored CPL column. An average of ratios goes wrong as soon as a date filter spans months with different budgets.",
       },
       {
         heading: "The template uses only fields every GA4 property has",
-        body: "Dashboard 2 never hard-codes this site's own event names. The Events page runs on GA4's Key events, so a client's conversions appear automatically after they swap properties. The template defaults to Google's public demo property; PENDING: one sentence on the swap-to-marcushq.buzz test result.",
+        body: "Dashboard 2 never hard-codes this site's own event names. The Events page runs on GA4's Key events, so a client's conversions appear automatically after they swap properties. The template defaults to Google's public demo property. Swapping the data control to this site's own property re-pointed every chart, and the grouping fields kept working with no per-client rebuild.",
       },
     ],
     result: "PENDING: fill in only what was verified (public URLs render in incognito, cross-source filter works, PDF export clean, data control swap result).",
@@ -66,8 +70,8 @@ Dashboard 2:  GA4 native connector ── Data control ── viewer's own prope
     ],
     footnote: "Built as portfolio evidence for multi-source marketing reporting and agency GA4 templates. Real GA4 + Search Console data from this site; paid and CRM layers simulated and labelled.",
     links: [
-      { label: "Dashboard 1: Marketing ROI (live)", url: "PENDING" },
-      { label: "Dashboard 2: GA4 template (live)", url: "PENDING" },
+      { label: "Dashboard 1: Marketing ROI (live)", url: "https://datastudio.google.com/reporting/b157e938-fa59-4e4f-aa4b-75ab32d4b072" },
+      { label: "Dashboard 2: GA4 template (live)", url: "https://datastudio.google.com/reporting/465f0039-1f41-49ca-8691-1aa97f6430f7" },
       { label: "UTM cheat sheet", url: "PENDING" },
     ],
   },

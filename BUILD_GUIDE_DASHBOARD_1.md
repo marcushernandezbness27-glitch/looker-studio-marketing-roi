@@ -147,3 +147,15 @@ Add the banner: *"Paid + CRM = simulated · Traffic trend = live GA4."*
 6. **Default date range:** Report settings → **Custom Jul 1 2026 – Oct 10 2026**, matching the mock data's range, so the paid pages aren't empty under "Last 28 days" later. Re-run the generator with a later `--end` and re-import to extend it.
 7. Paste the public URL into `CASE_STUDY.md` (the `[PENDING]` link) and the TS draft.
 8. Take 3 screenshots, one per page, at 1100 px. Save them to `portfolio-site/public/case-studies/looker-studio-marketing-roi/` as `page1_website_search.png`, `page2_paid.png` and `page3_summary.png`.
+
+---
+
+## Gotchas hit during the real build (Oct 12–13 2026)
+
+1. **GA4 field names with spaces can't be typed into formulas.** Use the field IDs (`sessionSource`, `sessionMedium`). They're named in the field's Description column.
+2. **`IMPORTDATA` dates arrive as unformatted serial numbers.** Format column A as Date in Sheets, then Edit Connection → Reconnect, or Data Studio reads the column as Number.
+3. **A chart copied and then switched to a different data source keeps its old sort field** ("Invalid sort"). Insert fresh charts per data source, or fix Sort in Setup.
+4. **Changing date granularity in a chart doesn't regroup a blend** (one bar per day remained). Add `Week = DATETIME_TRUNC(date, ISOWEEK)` to the source, include it in the blend table, and chart on that.
+5. **Sharing failed with "An unknown error occurred" from the Windows Server machine,** in all browsers and incognito. It worked from a different network/device. Google blocks permission changes from data-centre IPs. Change sharing from a personal device.
+6. **Search Console wasn't verified before this build.** It was verified Oct 12 2026 as a Domain property via a Cloudflare TXT record (keep that record permanently).
+7. **Looker Studio now shows as "Data Studio" in the UI,** and report URLs use datastudio.google.com.

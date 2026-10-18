@@ -9,7 +9,9 @@ only swap a chart whose data source uses the same connector type. Budget about 2
 ## Step 1 — Create the report (10 min)
 
 0. **Get access to Google's GA4 demo account first.** Search "Google Analytics demo account" in Google's Analytics Help and click the GA4 access link while signed in as your Gmail. "Demo Account → GA4 - Google Merch Shop" then appears in your GA4 account list with Viewer access.
-1. Go to lookerstudio.google.com → **Blank report** → Google Analytics → **Demo Account → GA4 - Google Merch Shop** → Add.
+1. Go to lookerstudio.google.com → **Blank report** → Google Analytics → **Demo Account → GA4 - Google Merch Shop** (property **213025502**) → Add.
+   **If the picker doesn't list Demo Account:** open this URL instead. It creates a new report already connected to property 213025502 through the Linking API:
+   `https://lookerstudio.google.com/reporting/create?ds.ds0.connector=googleAnalytics&ds.ds0.propertyId=213025502`
    **Why the demo property is the default:** marcushq.buzz runs consent mode with the default set to denied, so its standard GA4 reports are near-empty and a template defaulting to it would look blank. The demo store has real, rich ecommerce data. The template's job is the swap, so the default only needs to show what a populated report looks like.
 2. Rename the data source to `GA4 — template source`, and keep **Owner's credentials**, so public viewers see the demo store data by default.
 3. Add a text box under the title: *"Default data: Google's public GA4 demo property (Google Merchandise Store). Select your own property in the data control."*

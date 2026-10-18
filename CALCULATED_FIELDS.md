@@ -14,18 +14,22 @@ a Sheets column on import (e.g. `cost` → `Cost`), fix the name in the formula.
 
 ## 1. Platform grouping (shared by both dashboards)
 
+> GA4 formulas use **field IDs** (`sessionSource`, `sessionMedium`), not display
+> names. A display name with a space (`Session medium`) can't be typed bare into
+> a formula: the editor reads it as two tokens and throws a syntax error.
+
 ### GA4 data source: `Platform Group` (Field ID `platform_group_cf`)
 
 ```
 CASE
-  WHEN REGEXP_CONTAINS(LOWER(Session medium), "^e-?mail$|newsletter") THEN "Email"
-  WHEN REGEXP_CONTAINS(LOWER(Session source), "threads") THEN "Threads"
-  WHEN REGEXP_CONTAINS(LOWER(Session source), "facebook|instagram|^(fb|ig|an|msg|meta)$") THEN "Meta"
-  WHEN REGEXP_CONTAINS(LOWER(Session source), "youtube|^yt$") THEN "YouTube"
-  WHEN REGEXP_CONTAINS(LOWER(Session source), "linkedin|lnkd") THEN "LinkedIn"
-  WHEN REGEXP_CONTAINS(LOWER(Session source), "xiaohongshu|xhslink|^xhs$|rednote") THEN "Xiaohongshu"
-  WHEN REGEXP_CONTAINS(LOWER(Session source), "google") THEN "Google"
-  WHEN Session source = "(direct)" THEN "Direct"
+  WHEN REGEXP_CONTAINS(LOWER(sessionMedium), "^e-?mail$|newsletter") THEN "Email"
+  WHEN REGEXP_CONTAINS(LOWER(sessionSource), "threads") THEN "Threads"
+  WHEN REGEXP_CONTAINS(LOWER(sessionSource), "facebook|instagram|^(fb|ig|an|msg|meta)$") THEN "Meta"
+  WHEN REGEXP_CONTAINS(LOWER(sessionSource), "youtube|^yt$") THEN "YouTube"
+  WHEN REGEXP_CONTAINS(LOWER(sessionSource), "linkedin|lnkd") THEN "LinkedIn"
+  WHEN REGEXP_CONTAINS(LOWER(sessionSource), "xiaohongshu|xhslink|^xhs$|rednote") THEN "Xiaohongshu"
+  WHEN REGEXP_CONTAINS(LOWER(sessionSource), "google") THEN "Google"
+  WHEN sessionSource = "(direct)" THEN "Direct"
   ELSE "Other"
 END
 ```
@@ -43,14 +47,14 @@ Order matters:
 
 ```
 CASE
-  WHEN REGEXP_CONTAINS(LOWER(Session medium), "^(cpc|ppc|cpm|cpv|display|paid.*)$") THEN "Paid"
-  WHEN LOWER(Session medium) = "organic" THEN "Organic Search"
-  WHEN REGEXP_CONTAINS(LOWER(Session medium), "^(social|social-network|social-media|sm|organic_social)$") THEN "Organic Social"
-  WHEN REGEXP_CONTAINS(LOWER(Session medium), "^e-?mail$|newsletter") THEN "Email"
-  WHEN LOWER(Session medium) = "referral"
-       AND REGEXP_CONTAINS(LOWER(Session source), "facebook|instagram|threads|linkedin|lnkd|youtube|xiaohongshu|xhslink|rednote|^t[.]co$|twitter|^x[.]com$|reddit") THEN "Organic Social"
-  WHEN LOWER(Session medium) = "referral" THEN "Referral"
-  WHEN Session source = "(direct)" THEN "Direct"
+  WHEN REGEXP_CONTAINS(LOWER(sessionMedium), "^(cpc|ppc|cpm|cpv|display|paid.*)$") THEN "Paid"
+  WHEN LOWER(sessionMedium) = "organic" THEN "Organic Search"
+  WHEN REGEXP_CONTAINS(LOWER(sessionMedium), "^(social|social-network|social-media|sm|organic_social)$") THEN "Organic Social"
+  WHEN REGEXP_CONTAINS(LOWER(sessionMedium), "^e-?mail$|newsletter") THEN "Email"
+  WHEN LOWER(sessionMedium) = "referral"
+       AND REGEXP_CONTAINS(LOWER(sessionSource), "facebook|instagram|threads|linkedin|lnkd|youtube|xiaohongshu|xhslink|rednote|^t[.]co$|twitter|^x[.]com$|reddit") THEN "Organic Social"
+  WHEN LOWER(sessionMedium) = "referral" THEN "Referral"
+  WHEN sessionSource = "(direct)" THEN "Direct"
   ELSE "Other"
 END
 ```
@@ -130,15 +134,23 @@ blend has a table-level filter `traffic_type = Paid`.
 
 ---
 
+> **Rule found in the real build: rates don't survive custom grouping.** `Platform Group`
+> / `Traffic Type` are built from source/medium, so Data Studio fetches one row per
+> source/medium pair and then re-aggregates. Counts (sessions, key events) add up
+> correctly. GA4 *rates* (`Session key event rate`, `Engagement rate`) were **summed**, giving
+> 1,504% for Other / Referral on the demo property. In tables grouped by the custom
+> fields, use count ratios (`keyEvents / sessions`, `engagedSessions / sessions`). Keep
+> GA4's native rates only on scorecards and on charts grouped by native GA4 dimensions.
+
 ## 5. Dashboard 2 — GA4 template (native connector only, no blends)
 
 Uses the same `Platform Group` and `Traffic Type` fields from §1, plus:
 
 | Field | Formula | Type |
 |---|---|---|
-| Engaged Session Share | `Engaged sessions / Sessions` | Percent (GA4's own Engagement rate works too; this one stays correct under any filter) |
-| Key Events per Session | `Key events / Sessions` | Number, 2 dp |
-| Is Key Page | `CASE WHEN REGEXP_CONTAINS(Landing page, "^/work/|^/analytics") THEN "Case study / proof" ELSE "Other" END` | Dimension. marcushq-specific example: edit the regex per client |
+| Engaged Session Share | `engagedSessions / sessions` | Percent (GA4's own Engagement rate works too; this one stays correct under any filter) |
+| Key Events per Session | `keyEvents / sessions` | Number, 2 dp |
+| Is Key Page | `CASE WHEN REGEXP_CONTAINS(landingPage, "^/work/|^/analytics") THEN "Case study / proof" ELSE "Other" END` | Dimension. marcushq-specific example: edit the regex per client |
 
 **Data control compatibility:** these are data-source-level calculated fields
 built only from standard GA4 dimensions and metrics that exist in every property, so
