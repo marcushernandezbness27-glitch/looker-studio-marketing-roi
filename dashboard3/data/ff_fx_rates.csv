@@ -1,0 +1,15 @@
+month,currency,usd_to_currency,source
+2026-04-01,USD,1,identity
+2026-04-01,EUR,0.85427,ECB reference avg of 20 days
+2026-05-01,USD,1,identity
+2026-05-01,EUR,0.85669,ECB reference avg of 20 days
+2026-06-01,USD,1,identity
+2026-06-01,EUR,0.86827,ECB reference avg of 22 days
+2026-07-01,USD,1,identity
+2026-07-01,EUR,0.87586,ECB reference avg of 23 days
+2026-08-01,USD,1,identity
+2026-08-01,EUR,0.86260,ECB reference avg of 21 days
+2026-09-01,USD,1,identity
+2026-09-01,EUR,0.86863,ECB reference avg of 22 days
+2026-10-01,USD,1,identity
+2026-10-01,EUR,0.89161,ECB reference avg of 12 days
