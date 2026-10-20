@@ -19,6 +19,20 @@ and a case study for marcushq.buzz/work/looker-studio-marketing-roi.
 (GA4 G-L5S4F1PE8V via GTM-TTFVC893). Ads, CRM and targets are simulated and
 labelled on every report page.
 
+## Dashboard 3: CRM to Revenue ROI (Build 43b, live HubSpot)
+
+**Live report:** https://datastudio.google.com/reporting/8f5c4c0c-efb8-47e3-af58-514e80fd7603
+
+- **CRM data:** live HubSpot (FieldFlow demo account: 305 contacts, 63 deals), synced daily into Google Sheets by [`dashboard3/apps-script/hubspot_sync.gs`](dashboard3/apps-script/hubspot_sync.gs). No paid connector and no Google Cloud project.
+- **Attribution:** each deal is credited to the lead source of its company's earliest contact (first touch).
+- **Validation:** every sync is checked against HubSpot's own totals. 4/4 matched: 305 contacts, 63 deals, 20 won, $171,516.
+- **Ad spend:** Google Ads + Meta spend is **simulated**, anchored to the real monthly paid-lead counts ([`generate_ff_spend.mjs`](dashboard3/scripts/generate_ff_spend.mjs)).
+- **FX:** USD→EUR are real ECB reference rates.
+- **Pages:** Leads & Pipeline · Paid Channels (spend → CRM leads → won revenue, platform vs CRM leads) · Revenue vs Target & Data Quality.
+- **Controls:** one date, channel and currency control drives all pages, via shared Field IDs and currency as a row dimension.
+- **Docs:** build guide [`dashboard3/BUILD_GUIDE_DASHBOARD_3.md`](dashboard3/BUILD_GUIDE_DASHBOARD_3.md) (with the expected figures) and connector options [`dashboard3/CONNECTORS.md`](dashboard3/CONNECTORS.md).
+- **Local test:** [`dashboard3/scripts/test_sync_local.mjs`](dashboard3/scripts/test_sync_local.mjs) runs the Apps Script in Node against the real HubSpot API.
+
 ## Status checklist
 
 - [x] Mock data generated and sanity-checked

@@ -1,6 +1,7 @@
 # Multi-Source Marketing ROI Reporting in Looker Studio + a Reusable GA4 Client Template
 
 > **PUBLISHED 2026-10-15** at https://marcushq.buzz/work/looker-studio-marketing-roi (site source: portfolio-site/src/case-studies.ts).
+> **Updated 2026-10-20** with Dashboard 3 (live HubSpot CRM to revenue): see the README and dashboard3/. The site entry is the canonical text.
 > Target URL: marcushq.buzz/work/looker-studio-marketing-roi
 
 **Role:** Sole builder (data model, mock data generator, calculated fields, report design, verification)
